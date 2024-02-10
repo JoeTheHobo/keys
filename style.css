@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #414141;
+}
+#centered {
+    margin-top: 40px;
+    color: white;
+}
+#title {
+    font-family: 'Inter';
+    font-size: 8vw;
+    font-weight: bold;
+}
+#imgLogo {
+    margin-top: 2em;
+    border-radius: 25px;
+    width: 40%;
+}
+#chooseType {
+    width: max-content;
+    padding: 4px;
+    margin-top: 25%;
+    background-color: rgba(0, 0, 0, .36);
+    border-radius: 50px;
+
+}
+.options {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    width: 140px;
+    border-radius: 50px;
+    z-index: 1000;
+    position: relative;
+}
+#background {
+    position: absolute;
+    height: 23px;
+    padding: 5px;
+    font-size: 20px;
+    width: 140px;
+    border-radius: 50px;
+    background: #3e6f7e;
+    z-index: 1;
+}
+#ifBuilding {
+    border-radius: 15px;
+    width: max-content;
+    padding: none;
+    height: 40px;
+    
+}
+#n {
+    background: #3e6f7e;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 8px;
+    line-height: 100%;
+    display: inline-block;
+}
+#Binput {
+    outline: none;
+    border: none;
+    height: 100%;
+    font-size: 25px;
+    width: 55px;
+    display: inline-block;
+
+}
+#Bsearch {
+    color: black;
+    display: inline-block;
+    width: 20px;
+    margin-right: 15px;
+    background: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
